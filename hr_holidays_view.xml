@@ -619,19 +619,19 @@
        </record>
 
         <!-- Hr employee inherit Legal Leaves -->
-        <record id="view_employee_form_leave_inherit" model="ir.ui.view">
+        <!-- <record id="view_employee_form_leave_inherit" model="ir.ui.view">
             <field name="name">hr.employee.leave.form.inherit</field>
             <field name="model">hr.employee</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
-                <!-- <xpath expr="//group[@name='active_group']" position="after">
+                <xpath expr="//group[@name='active_group']" position="after">
                     <group string="Leaves" groups="base.group_no_one">
                         <label for="remaining_leaves"/>
                         <div>
                             <field name="remaining_leaves" class="oe_inline"/> days
                         </div>
                     </group>
-                </xpath> -->
+                </xpath>
                 <div name="button_box" position="inside">
                     <field name="show_leaves" invisible="1"/>
                     <button name="%(act_hr_employee_holiday_request)d"
@@ -645,7 +645,7 @@
                     </button>
                 </div>
             </field>
-        </record>
+        </record> -->
 
         <!--Hr Employee inherit search view-->
         <record id="hr_employee_view_search" model="ir.ui.view">
